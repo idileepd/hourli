@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "720788617921",
+    "firebase_url": "https://hourli.firebaseio.com",
+    "project_id": "hourli",
+    "storage_bucket": "hourli.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:720788617921:android:e0077ef4a71b1314833240",
+        "android_client_info": {
+          "package_name": "com.example.hourli"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "720788617921-e4f8ijnj3ff6ul6805q8156g51sf5eld.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hourli",
+            "certificate_hash": "c5b7309ccb99ba781bb5d89797ebb0febfa6a0aa"
+          }
+        },
+        {
+          "client_id": "720788617921-cilovalrcucq5kgaot8s38cc7hm67f5j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrdhibUxvOl4UKcXGaopHsBFbIWL5UKaM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "720788617921-cilovalrcucq5kgaot8s38cc7hm67f5j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

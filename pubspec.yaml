@@ -1,0 +1,136 @@
+name: hourli
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.3
+
+  # State
+  get: 3.11.1
+  get_storage: 1.3.1
+
+  # Auth DB Services
+  firebase_core: ^0.5.0
+  firebase_auth: ^0.18.0+1
+  google_sign_in: 4.5.3
+  firebase_database: ^4.1.0
+  cloud_firestore: ^0.14.0+2
+  http: ^0.12.2
+
+  #notification stuff
+  flutter_local_notifications: ^1.4.4+4
+  firebase_messaging: ^6.0.16
+
+  share: ^0.6.5+2
+
+  # UI
+  floating_bottom_navigation_bar: 1.4.1
+  loading_indicator: 1.2.0
+  animated_bottom_navigation_bar: ^0.1.2+2
+  dotted_border: 1.0.6
+  flutter_auth_buttons: 0.10.0
+  argon_buttons_flutter: 1.0.6
+  line_awesome_flutter: 1.0.1
+  fl_chart: 0.11.1
+  flutter_material_color_picker: 1.0.5
+  number_display: 2.3.0
+  expansion_tile_card: 1.1.0
+  keyboard_avoider: ^0.1.2
+
+  
+  #timer
+  timer_count_down: ^1.0.4+1
+  circular_countdown_timer: ^0.0.6
+  timer_builder: ^1.3.0
+  intl: 0.16.1
+  #n/w
+  data_connection_checker: ^0.3.4
+
+  # Timeline
+  flutter_timeline: ^0.1.1+13
+
+  #responsive ness
+  responsive_framework: 0.0.8
+  device_preview: 0.4.8
+  flutter_launcher_icons: ^0.8.0
+  # flutter_launcher_name: ^0.0.1
+  numberpicker: 1.2.1
+
+
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/launcher_icon.png"
+  adaptive_icon_background: "assets/launcher_icon_background.png"
+  adaptive_icon_foreground: "assets/launcher_icon.png"
+  # ios: true
+  # android: true
+  # image_path_ios: "assets/launcher/icon.png"
+  # image_path_android: "assets/launcher/icon.png"
+  # adaptive_icon_background: "assets/launcher/background.png"
+  # adaptive_icon_foreground: "assets/launcher/foreground.png"
+
+# RUN THIS >> flutter pub run flutter_launcher_icons:main
+
+# flutter_launcher_name:
+#   name: "HOURLI"
+# # RUN THIS >>> flutter pub run flutter_launcher_name:main
+
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Marqez
+      fonts:
+        - asset: assets/fonts/Marqez.ttf
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/poppins/Poppins-Regular.ttf
+        - asset: assets/fonts/poppins/Poppins-Bold.ttf
+          weight: 700
+
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
