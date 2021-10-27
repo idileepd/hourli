@@ -19,6 +19,8 @@ Hourli is a task traking app with extra features that you can ask some one watch
 ### Working Demo
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/SmCEMnMEQd4/0.jpg)](https://www.youtube.com/watch?v=SmCEMnMEQd4)
 
+[Youtube demo link](https://youtu.be/SmCEMnMEQd4)
+
 
 ### Future Features!
   - Privacy
